@@ -1,6 +1,3 @@
-	// D-Birthdates.cpp : This file contains the 'main' function. Program execution begins and ends there.
-	//
-
 	#include <iostream>
 	#include <map>
 	using namespace std;
@@ -25,7 +22,6 @@
 			personas[anio][mes][dia] = nombre;
 			cant++;
 		}
-		//cout << cant << endl;
 		int cont=-1;
 		for (auto it = personas.rbegin(); it != personas.rend(); ++it) //ver por anio
 		{
@@ -38,7 +34,6 @@
 					{
 						cout << personas[it->first][it2->first][it3->first] << endl;
 					}
-					//cout << "cont: " << cont << endl;
 				}
 			}
 		}
